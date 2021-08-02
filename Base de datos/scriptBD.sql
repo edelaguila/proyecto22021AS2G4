@@ -108,3 +108,77 @@ FOREIGN KEY (idCorreos) REFERENCES Correos(idCorreo),
 FOREIGN KEY (idTel) REFERENCES Telefonos(idTelefono)
 )ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
 
+Create Table Carrera (
+idCarrera int NOT NULL,
+PRIMARY KEY (idCarrera),
+idJornada int,
+nombre Varchar(20),
+idPensum int,
+FOREIGN KEY (idJornada) REFERENCES Jornada(idJornada),
+FOREIGN KEY (idPensum) REFERENCES Pensum(idPensum)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+Create Table Facultades(
+idFacultad int NOT NULL,
+PRIMARY KEY (idFacultad),
+nombre varchar(20),
+idJornada int,
+idCarrera int,
+idPensum int,
+FOREIGN KEY (idJornada) REFERENCES Jornada(idJornada),
+FOREIGN KEY (idCarrera) REFERENCES Carrera(idCarrera),
+FOREIGN KEY (idPensum) REFERENCES Pensum(idPensum)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+Create Table AsignacionCat(
+idAsignacion int NOT NULL,
+PRIMARY KEY (idAsignacion),
+idCat int,
+idCurso int,
+FOREIGN KEY (idCat) REFERENCES catedratico(idCat),
+FOREIGN KEY(idCurso) REFERENCES Cursos(idCurso)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1; 
+
+Create Table AsignacionAlumno(
+idAsignacion int NOT NULL,
+PRIMARY KEY (idAsignacion),
+idAlumno int,
+idCurso int,
+fecha date,
+FOREIGN KEY (idAlumno) REFERENCES Alumno(idAlumno),
+FOREIGN KEY(idCurso) REFERENCES Cursos(idCurso)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+Create Table sede(
+idSede int not null,
+nombre varchar(15),
+idEdificio int,
+PRIMARY KEY (idSede),
+FOREIGN KEY (idEdificio) REFERENCES Edificio(idEdificio)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+Create Table Tesoreia(
+numBoleta int not null auto_increment,
+PRIMARY KEY (numBoleta),
+numtransaccion int null,
+codMovimiento int not null,
+total int not null,
+idEstudiante int not null,
+FOREIGN KEY (idEstudiante) REFERENCES Alumno(idAlumno)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+Create Table Bitacora(
+idBitacora int not null,
+primary key(idBitacora),
+descripccion varchar(50),
+idUsuario int,
+fecha datetime
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+create table certificacion(
+idCertificacion int  not null,
+primary key(idCertificacion),
+idCurso int,
+nota int,
+FOREIGN KEY (idCurso) REFERENCES Cursos(idCurso)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
