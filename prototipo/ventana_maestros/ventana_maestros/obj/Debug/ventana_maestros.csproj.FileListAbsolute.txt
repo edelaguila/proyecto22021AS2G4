@@ -11,3 +11,20 @@ C:\Users\Angel\Documents\Visual Proyectos\ventana_maestros\ventana_maestros\obj\
 C:\Users\Angel\Documents\Visual Proyectos\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.LoginMaestros.resources
 C:\Users\Angel\Documents\Visual Proyectos\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.frmMaestros.resources
 C:\Users\Angel\Documents\Visual Proyectos\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.ventanaasignacionalumno.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\bin\Debug\ventana_maestros.exe.config
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\bin\Debug\ventana_maestros.exe
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\bin\Debug\ventana_maestros.pdb
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.csproj.AssemblyReference.cache
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.Form1.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.frmMaestros.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.LoginMaestros.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.Properties.Resources.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.ventanaasignacionalumno.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.csproj.GenerateResource.cache
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.exe
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.pdb
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.FormCatedratico.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.FormCorreo.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.FormDireccion.resources
+C:\Users\franc\OneDrive\Documentos\Analisis Sistemas ll\proyecto22021AS2G4\prototipo\ventana_maestros\ventana_maestros\obj\Debug\ventana_maestros.FormTelefono.resources
