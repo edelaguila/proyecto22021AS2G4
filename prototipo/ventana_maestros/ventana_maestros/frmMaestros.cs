@@ -30,5 +30,35 @@ namespace ventana_maestros
             Form frm = new ventanaasignacionalumno();
             frm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form frm = new FormDireccion();
+            frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frm = new FormTelefono();
+            frm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form frm = new FormCatedratico();
+            frm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form frm = new FormCorreo();
+            frm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form frm = new Form1();
+            frm.Show();
+        }
     }
 }
