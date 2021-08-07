@@ -1,0 +1,12 @@
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.exe.config
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.exe
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.pdb
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.AssemblyReference.cache
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Properties.Resources.resources
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.GenerateResource.cache
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.CoreCompileInputs.cache
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.exe
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.pdb
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form1menuprincipal.resources
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form2login.resources
+C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form3MenuAdministrador.resources
