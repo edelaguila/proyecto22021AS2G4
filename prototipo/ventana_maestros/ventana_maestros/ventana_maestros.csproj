@@ -52,30 +52,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCatedratico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormCatedratico.Designer.cs">
-      <DependentUpon>FormCatedratico.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormCorreo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormCorreo.Designer.cs">
-      <DependentUpon>FormCorreo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormDireccion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDireccion.Designer.cs">
-      <DependentUpon>FormDireccion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormTelefono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormTelefono.Designer.cs">
-      <DependentUpon>FormTelefono.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmMaestros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,18 +74,6 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCatedratico.resx">
-      <DependentUpon>FormCatedratico.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCorreo.resx">
-      <DependentUpon>FormCorreo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDireccion.resx">
-      <DependentUpon>FormDireccion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTelefono.resx">
-      <DependentUpon>FormTelefono.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMaestros.resx">
       <DependentUpon>frmMaestros.cs</DependentUpon>
