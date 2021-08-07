@@ -34,8 +34,15 @@ namespace ProgramaUniversitario
 
         private void btnEstudiante_Click(object sender, EventArgs e)
         {
-            Form frm = new Form2login();
+            
+            Form frm = new MenuEstudiante();
             frm.Show();
+            
+        }
+
+        private void Form1menuprincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
