@@ -24,12 +24,12 @@ namespace ProgramaUniversitario
         {
             Form frm = new Form1menuprincipal();
             frm.Show();
-            
         }
 
-        private void Form3MenuAdministrador_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form frm = new FormIngresoCatedratico();
+            frm.Show();
         }
     }
 }

@@ -81,6 +81,7 @@ namespace ProgramaUniversitario
             this.button1.TabIndex = 3;
             this.button1.Text = "Registro Catedratico";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAyuda
             // 
@@ -209,7 +210,6 @@ namespace ProgramaUniversitario
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3MenuAdministrador";
             this.Text = "🎓 | Menu Administrador";
-            this.Load += new System.EventHandler(this.Form3MenuAdministrador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
