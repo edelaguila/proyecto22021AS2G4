@@ -41,21 +41,23 @@ namespace ProgramaUniversitario
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Kollektif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(322, 191);
+            this.label1.Location = new System.Drawing.Point(429, 235);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 36);
+            this.label1.Size = new System.Drawing.Size(214, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bienvenido";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("DM Sans Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(339, 242);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(452, 298);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 21);
+            this.label2.Size = new System.Drawing.Size(135, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Entrar como:";
             // 
@@ -67,9 +69,10 @@ namespace ProgramaUniversitario
             this.btnCatedratico.FlatAppearance.BorderSize = 0;
             this.btnCatedratico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCatedratico.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnCatedratico.Location = new System.Drawing.Point(343, 331);
+            this.btnCatedratico.Location = new System.Drawing.Point(457, 407);
+            this.btnCatedratico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCatedratico.Name = "btnCatedratico";
-            this.btnCatedratico.Size = new System.Drawing.Size(115, 37);
+            this.btnCatedratico.Size = new System.Drawing.Size(153, 46);
             this.btnCatedratico.TabIndex = 4;
             this.btnCatedratico.Text = "Catedratico";
             this.btnCatedratico.UseVisualStyleBackColor = false;
@@ -82,9 +85,10 @@ namespace ProgramaUniversitario
             this.btnEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstudiante.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnEstudiante.Location = new System.Drawing.Point(343, 384);
+            this.btnEstudiante.Location = new System.Drawing.Point(457, 473);
+            this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEstudiante.Name = "btnEstudiante";
-            this.btnEstudiante.Size = new System.Drawing.Size(115, 37);
+            this.btnEstudiante.Size = new System.Drawing.Size(153, 46);
             this.btnEstudiante.TabIndex = 5;
             this.btnEstudiante.Text = "Estudiante";
             this.btnEstudiante.UseVisualStyleBackColor = false;
@@ -98,9 +102,10 @@ namespace ProgramaUniversitario
             this.btnAdministrador.FlatAppearance.BorderSize = 0;
             this.btnAdministrador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdministrador.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnAdministrador.Location = new System.Drawing.Point(343, 278);
+            this.btnAdministrador.Location = new System.Drawing.Point(457, 342);
+            this.btnAdministrador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdministrador.Name = "btnAdministrador";
-            this.btnAdministrador.Size = new System.Drawing.Size(115, 37);
+            this.btnAdministrador.Size = new System.Drawing.Size(153, 46);
             this.btnAdministrador.TabIndex = 3;
             this.btnAdministrador.Text = "Administracion";
             this.btnAdministrador.UseVisualStyleBackColor = false;
@@ -109,26 +114,29 @@ namespace ProgramaUniversitario
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProgramaUniversitario.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(325, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(433, 37);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(159, 136);
+            this.pictureBox1.Size = new System.Drawing.Size(212, 167);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // Form1menuprincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 468);
+            this.ClientSize = new System.Drawing.Size(1101, 576);
             this.Controls.Add(this.btnEstudiante);
             this.Controls.Add(this.btnCatedratico);
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1menuprincipal";
             this.Text = "🎓 | Programa Universidad";
+            this.Load += new System.EventHandler(this.Form1menuprincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

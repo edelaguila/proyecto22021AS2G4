@@ -65,6 +65,12 @@
     <Compile Include="Form3MenuAdministrador.Designer.cs">
       <DependentUpon>Form3MenuAdministrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuEstudiante.Designer.cs">
+      <DependentUpon>MenuEstudiante.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1menuprincipal.resx">
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3MenuAdministrador.resx">
       <DependentUpon>Form3MenuAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuEstudiante.resx">
+      <DependentUpon>MenuEstudiante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

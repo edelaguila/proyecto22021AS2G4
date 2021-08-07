@@ -47,9 +47,10 @@ namespace ProgramaUniversitario
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProgramaUniversitario.Properties.Resources.Login;
-            this.pictureBox1.Location = new System.Drawing.Point(61, 39);
+            this.pictureBox1.Location = new System.Drawing.Point(81, 48);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 133);
+            this.pictureBox1.Size = new System.Drawing.Size(185, 164);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -58,11 +59,12 @@ namespace ProgramaUniversitario
             // 
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Kollektif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(58, 201);
+            this.label1.Location = new System.Drawing.Point(77, 247);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 24);
+            this.label1.Size = new System.Drawing.Size(175, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Administrador";
             // 
@@ -72,9 +74,10 @@ namespace ProgramaUniversitario
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.DarkRed;
-            this.button1.Location = new System.Drawing.Point(285, 39);
+            this.button1.Location = new System.Drawing.Point(380, 48);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 22);
+            this.button1.Size = new System.Drawing.Size(181, 27);
             this.button1.TabIndex = 3;
             this.button1.Text = "Registro Catedratico";
             this.button1.UseVisualStyleBackColor = true;
@@ -85,9 +88,10 @@ namespace ProgramaUniversitario
             this.btnAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAyuda.FlatAppearance.BorderSize = 0;
             this.btnAyuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAyuda.Location = new System.Drawing.Point(733, 392);
+            this.btnAyuda.Location = new System.Drawing.Point(977, 482);
+            this.btnAyuda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAyuda.Name = "btnAyuda";
-            this.btnAyuda.Size = new System.Drawing.Size(55, 46);
+            this.btnAyuda.Size = new System.Drawing.Size(73, 57);
             this.btnAyuda.TabIndex = 5;
             this.btnAyuda.UseVisualStyleBackColor = true;
             // 
@@ -97,9 +101,10 @@ namespace ProgramaUniversitario
             this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCerrar.FlatAppearance.BorderSize = 0;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Location = new System.Drawing.Point(733, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(977, 15);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(55, 46);
+            this.btnCerrar.Size = new System.Drawing.Size(73, 57);
             this.btnCerrar.TabIndex = 6;
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -110,9 +115,10 @@ namespace ProgramaUniversitario
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.DarkRed;
-            this.button3.Location = new System.Drawing.Point(285, 67);
+            this.button3.Location = new System.Drawing.Point(380, 82);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 22);
+            this.button3.Size = new System.Drawing.Size(181, 27);
             this.button3.TabIndex = 7;
             this.button3.Text = "Gestion de Usuario";
             this.button3.UseVisualStyleBackColor = true;
@@ -123,9 +129,10 @@ namespace ProgramaUniversitario
             this.btnReporteSeccion.FlatAppearance.BorderSize = 0;
             this.btnReporteSeccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporteSeccion.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnReporteSeccion.Location = new System.Drawing.Point(285, 95);
+            this.btnReporteSeccion.Location = new System.Drawing.Point(380, 117);
+            this.btnReporteSeccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReporteSeccion.Name = "btnReporteSeccion";
-            this.btnReporteSeccion.Size = new System.Drawing.Size(196, 22);
+            this.btnReporteSeccion.Size = new System.Drawing.Size(261, 27);
             this.btnReporteSeccion.TabIndex = 8;
             this.btnReporteSeccion.Text = "Reporte de alumnos por seccion";
             this.btnReporteSeccion.UseVisualStyleBackColor = true;
@@ -136,9 +143,10 @@ namespace ProgramaUniversitario
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.DarkRed;
-            this.button4.Location = new System.Drawing.Point(285, 123);
+            this.button4.Location = new System.Drawing.Point(380, 151);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(193, 22);
+            this.button4.Size = new System.Drawing.Size(257, 27);
             this.button4.TabIndex = 9;
             this.button4.Text = "Reporte de alumnos por carrera";
             this.button4.UseVisualStyleBackColor = true;
@@ -149,9 +157,10 @@ namespace ProgramaUniversitario
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.DarkRed;
-            this.button5.Location = new System.Drawing.Point(285, 151);
+            this.button5.Location = new System.Drawing.Point(380, 186);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(188, 22);
+            this.button5.Size = new System.Drawing.Size(251, 27);
             this.button5.TabIndex = 10;
             this.button5.Text = "Reporte de alumnos por curso";
             this.button5.UseVisualStyleBackColor = true;
@@ -162,9 +171,10 @@ namespace ProgramaUniversitario
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.DarkRed;
-            this.button6.Location = new System.Drawing.Point(285, 179);
+            this.button6.Location = new System.Drawing.Point(380, 220);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(159, 22);
+            this.button6.Size = new System.Drawing.Size(212, 27);
             this.button6.TabIndex = 11;
             this.button6.Text = "Reporte de catedraticos";
             this.button6.UseVisualStyleBackColor = true;
@@ -172,18 +182,19 @@ namespace ProgramaUniversitario
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProgramaUniversitario.Properties.Resources.logo;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 392);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 482);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 46);
+            this.pictureBox2.Size = new System.Drawing.Size(73, 57);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
             // Form3MenuAdministrador
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -195,8 +206,10 @@ namespace ProgramaUniversitario
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3MenuAdministrador";
             this.Text = "🎓 | Menu Administrador";
+            this.Load += new System.EventHandler(this.Form3MenuAdministrador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
