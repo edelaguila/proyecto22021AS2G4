@@ -10,28 +10,3 @@ C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debu
 C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form1menuprincipal.resources
 C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form2login.resources
 C:\Users\ldavi\source\repos\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form3MenuAdministrador.resources
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.exe.config
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.exe
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.pdb
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.AssemblyReference.cache
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form1menuprincipal.resources
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form2login.resources
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form3MenuAdministrador.resources
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Properties.Resources.resources
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.GenerateResource.cache
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.CoreCompileInputs.cache
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.exe
-C:\Users\franc\OneDrive\Documentos\Git\proyecto22021AS2G4\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.pdb
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.exe.config
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.exe
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\bin\Debug\ProgramaUniversitario.pdb
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.AssemblyReference.cache
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form1menuprincipal.resources
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form2login.resources
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Form3MenuAdministrador.resources
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.FormIngresoCatedratico.resources
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.Properties.Resources.resources
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.GenerateResource.cache
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.csproj.CoreCompileInputs.cache
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.exe
-C:\Users\franc\OneDrive\Documentos\Respaldos Analisis Sistemas ll\prototipo\ProgramaUniversitario\ProgramaUniversitario\obj\Debug\ProgramaUniversitario.pdb

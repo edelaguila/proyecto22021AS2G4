@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -65,11 +72,35 @@
     <Compile Include="Form3MenuAdministrador.Designer.cs">
       <DependentUpon>Form3MenuAdministrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormIngresoCatedratico.cs">
+    <Compile Include="Form4IngresoCatedratico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormIngresoCatedratico.Designer.cs">
-      <DependentUpon>FormIngresoCatedratico.cs</DependentUpon>
+    <Compile Include="Form4IngresoCatedratico.Designer.cs">
+      <DependentUpon>Form4IngresoCatedratico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5ReporteAlumnosCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5ReporteAlumnosCarrera.Designer.cs">
+      <DependentUpon>Form5ReporteAlumnosCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6ReporteAlumnoSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6ReporteAlumnoSeccion.Designer.cs">
+      <DependentUpon>Form6ReporteAlumnoSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7ReportesAlumnoCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7ReportesAlumnoCurso.Designer.cs">
+      <DependentUpon>Form7ReportesAlumnoCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8ReporteCatedraticos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8ReporteCatedraticos.Designer.cs">
+      <DependentUpon>Form8ReporteCatedraticos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +113,20 @@
     <EmbeddedResource Include="Form3MenuAdministrador.resx">
       <DependentUpon>Form3MenuAdministrador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormIngresoCatedratico.resx">
-      <DependentUpon>FormIngresoCatedratico.cs</DependentUpon>
+    <EmbeddedResource Include="Form4IngresoCatedratico.resx">
+      <DependentUpon>Form4IngresoCatedratico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5ReporteAlumnosCarrera.resx">
+      <DependentUpon>Form5ReporteAlumnosCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6ReporteAlumnoSeccion.resx">
+      <DependentUpon>Form6ReporteAlumnoSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7ReportesAlumnoCurso.resx">
+      <DependentUpon>Form7ReportesAlumnoCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8ReporteCatedraticos.resx">
+      <DependentUpon>Form8ReporteCatedraticos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -143,6 +186,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\icn\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
