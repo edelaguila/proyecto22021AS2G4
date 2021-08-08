@@ -24,11 +24,37 @@ namespace ProgramaUniversitario
         {
             Form frm = new Form1menuprincipal();
             frm.Show();
+            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnRegistroCatedratico_Click(object sender, EventArgs e)
         {
-            Form frm = new FormIngresoCatedratico();
+            Form frm = new Form4IngresoCatedratico();
+            frm.Show();
+            
+        }
+
+        private void btnReporteSeccion_Click(object sender, EventArgs e)
+        {
+            Form frm = new Form6ReporteAlumnoSeccion();
+            frm.Show();
+        }
+
+        private void btnReporteCarrera_Click(object sender, EventArgs e)
+        {
+            Form frm = new Form5ReporteAlumnosCarrera();
+            frm.Show();
+        }
+
+        private void btnReporteCurso_Click(object sender, EventArgs e)
+        {
+            Form frm = new Form7ReportesAlumnoCurso();
+            frm.Show();
+        }
+
+        private void btnReporteCatedraticos_Click(object sender, EventArgs e)
+        {
+            Form frm = new Form8ReporteCatedraticos();
             frm.Show();
         }
     }
