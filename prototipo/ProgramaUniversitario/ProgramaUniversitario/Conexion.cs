@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Data.Odbc;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProgramaUniversitario
 {
@@ -35,5 +37,25 @@ namespace ProgramaUniversitario
                 Console.WriteLine("No Conectó");
             }
         }
+
+        public static MySqlConnection conex()
+        {
+            string servidor = "server=den1.mysql2.gear.host; database=pruebauni; Uid=pruebauni; pwd=Sl00JJ~~iznm";
+
+            MySqlConnection conexionBD = new MySqlConnection(servidor);
+
+            try
+            {
+                return conexionBD;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message + e.StackTrace);
+                return null;
+            }
+
+
+        }
+
     }
 }
