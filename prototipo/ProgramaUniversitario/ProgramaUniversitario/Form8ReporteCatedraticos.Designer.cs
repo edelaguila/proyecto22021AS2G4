@@ -47,7 +47,7 @@ namespace ProgramaUniversitario
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 44);
+            this.label1.Location = new System.Drawing.Point(283, 38);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label1.Size = new System.Drawing.Size(214, 13);
@@ -56,7 +56,7 @@ namespace ProgramaUniversitario
             // 
             // txtIdAsignacion
             // 
-            this.txtIdAsignacion.Location = new System.Drawing.Point(301, 41);
+            this.txtIdAsignacion.Location = new System.Drawing.Point(521, 35);
             this.txtIdAsignacion.Name = "txtIdAsignacion";
             this.txtIdAsignacion.Size = new System.Drawing.Size(100, 20);
             this.txtIdAsignacion.TabIndex = 10;
@@ -69,7 +69,7 @@ namespace ProgramaUniversitario
             this.btnConsultar.FlatAppearance.BorderSize = 0;
             this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnConsultar.Location = new System.Drawing.Point(436, 32);
+            this.btnConsultar.Location = new System.Drawing.Point(656, 26);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(115, 37);
             this.btnConsultar.TabIndex = 9;
