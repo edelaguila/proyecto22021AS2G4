@@ -57,5 +57,10 @@ namespace ProgramaUniversitario
             Form frm = new Form8ReporteCatedraticos();
             frm.Show();
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "Ayudas/AyudadAdministracion.chm", "Manual-de-Menu-Administrativo.html");
+        }
     }
 }
