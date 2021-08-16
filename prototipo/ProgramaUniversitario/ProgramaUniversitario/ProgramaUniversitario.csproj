@@ -58,6 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="FormInscripccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInscripccion.Designer.cs">
+      <DependentUpon>FormInscripccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,42 @@
     <Compile Include="Form8ReporteCatedraticos.Designer.cs">
       <DependentUpon>Form8ReporteCatedraticos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCorreoAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCorreoAlumno.Designer.cs">
+      <DependentUpon>FormCorreoAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDireccionAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDireccionAlumno.Designer.cs">
+      <DependentUpon>FormDireccionAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginUsuario.Designer.cs">
+      <DependentUpon>FormLoginUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuAlumno.Designer.cs">
+      <DependentUpon>FormMenuAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistroAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistroAlumno.Designer.cs">
+      <DependentUpon>FormRegistroAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTelefonoAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTelefonoAlumno.Designer.cs">
+      <DependentUpon>FormTelefonoAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportAlumnoCurso.cs">
@@ -120,6 +162,9 @@
       <DependentUpon>ReportAlumnosCarrera.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="FormInscripccion.resx">
+      <DependentUpon>FormInscripccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1menuprincipal.resx">
       <DependentUpon>Form1menuprincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +188,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form8ReporteCatedraticos.resx">
       <DependentUpon>Form8ReporteCatedraticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCorreoAlumno.resx">
+      <DependentUpon>FormCorreoAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDireccionAlumno.resx">
+      <DependentUpon>FormDireccionAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginUsuario.resx">
+      <DependentUpon>FormLoginUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuAlumno.resx">
+      <DependentUpon>FormMenuAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistroAlumno.resx">
+      <DependentUpon>FormRegistroAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTelefonoAlumno.resx">
+      <DependentUpon>FormTelefonoAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

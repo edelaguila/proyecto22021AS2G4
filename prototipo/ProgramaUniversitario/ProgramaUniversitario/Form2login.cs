@@ -23,6 +23,7 @@ namespace ProgramaUniversitario
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form frm = new Form1menuprincipal();
             frm.Show();
         }
@@ -41,7 +42,7 @@ namespace ProgramaUniversitario
             if (registros.Read())
             {
                 MessageBox.Show(" Bienvenido " + txtUsuario.Text);
-                Form frm = new Form3MenuAdministrador();
+                Form frm = new FormMenuAlumno();
                 frm.Show();
             }
             else
@@ -50,9 +51,9 @@ namespace ProgramaUniversitario
             }
         }
 
-        private void btnAyuda_Click(object sender, EventArgs e)
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, "Ayudas/AyudadAdministracion.chm", "Manual-de-Log-in.html");
+
         }
     }
 }

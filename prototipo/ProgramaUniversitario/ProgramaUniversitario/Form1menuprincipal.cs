@@ -22,18 +22,23 @@ namespace ProgramaUniversitario
 
         private void btnAdministrador_Click(object sender, EventArgs e)
         {
-            Form frm = new Form2login();
+            this.Hide();
+            Form frm = new FormLoginUsuario();
             frm.Show();
+
         }
 
         private void btnCatedratico_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form frm = new Form2login();
             frm.Show();
+            this.Close();
         }
 
         private void btnEstudiante_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form frm = new Form2login();
             frm.Show();
         }
