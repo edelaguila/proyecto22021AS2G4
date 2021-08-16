@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudadAdministracion.chm
+Contents file=AyudasAdmin.hhc
+Default Window=Ayudad Administrador
+Display compile progress=No
+Language=0x80a Español (México)
+
+[WINDOWS]
+Ayudad Administrador="Ayudas de las diferentes ventanas","AyudasAdmin.hhc",,,"Manual-de-Log-in.html","Manual-de-Menu-Administrativo.html","Manual-de-Menu-Administrativo","Manual-de-ingreso-Catedratico.html","Manual-de-ingreso-Catedratico",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Manual-de-ingreso-Catedratico.html
+Manual-de-Log-in.html
+Manual-de-Menu-Administrativo.html
+
+[INFOTYPES]
+

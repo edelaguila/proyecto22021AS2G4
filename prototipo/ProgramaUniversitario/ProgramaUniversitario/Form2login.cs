@@ -49,5 +49,10 @@ namespace ProgramaUniversitario
                 MessageBox.Show("¡Usuario o datos no existentes!");
             }
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "Ayudas/AyudadAdministracion.chm", "Manual-de-Log-in.html");
+        }
     }
 }

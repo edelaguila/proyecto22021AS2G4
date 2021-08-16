@@ -31,7 +31,7 @@ namespace ProgramaUniversitario
                 MySqlCommand comando = new MySqlCommand();
                 comando.Connection = conexionBD;
                 comando.Parameters.AddWithValue("@ID", txtIdAsignacion.Text);
-                comando.CommandText = ("select idAsignacion, asignacioncursocat.idcat, catedratico.nombres, catedratico.apellidos, cursos.idcurso, cursos.nombre, cursos.prerequisito, horarios.idhorario, horarios.dia, horarios.hora, horarios.idjornada, jornada.jornada, cursos.idAula, aulas.nombreaula, cursos.seccion, aulas.idedificio, edificio.nombreedificio from asignacioncursocat, catedratico, cursos, horarios, jornada, aulas, edificio where asignacioncursocat.idcat = @ID and catedratico.idcat = asignacioncursocat.idcat and cursos.idcurso = asignacioncursocat.idcurso and jornada.idjornada = horarios.idjornada and aulas.idaula = cursos.idAula and edificio.idedificio = aulas.idedificio order by idAsignacion; ");
+                comando.CommandText = ("select idAsignacion, asignacioncat.idcat, catedratico.nombres, catedratico.apellidos, cursos.idcurso, cursos.nombre, cursos.prerequisito, horarios.idhorario, horarios.dia, horarios.hora, horarios.idjornada, jornada.jornada, cursos.idAula, aulas.nombreaula, cursos.seccion, aulas.idedificio, edificio.nombreedificio from asignacioncat,catedratico,cursos,horarios,jornada,aulas,edificio where asignacioncat.idcat=@ID and catedratico.idcat=asignacioncat.idcat and cursos.idcurso=asignacioncat.idcurso and jornada.idjornada=horarios.idjornada and aulas.idaula=cursos.idAula and edificio.idedificio=aulas.idedificio order by idAsignacion;");
 
                 MySqlDataAdapter adaptar = new MySqlDataAdapter();
                 adaptar.SelectCommand = comando;
