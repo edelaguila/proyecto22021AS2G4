@@ -50,11 +50,11 @@ namespace ProgramaUniversitario
             // 
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Kollektif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(145, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 24);
+            this.label1.Size = new System.Drawing.Size(80, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "Alumno";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -72,11 +72,11 @@ namespace ProgramaUniversitario
             // 
             this.Ualumno.AutoSize = true;
             this.Ualumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Ualumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ualumno.Font = new System.Drawing.Font("Kollektif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ualumno.ForeColor = System.Drawing.Color.Navy;
             this.Ualumno.Location = new System.Drawing.Point(130, 256);
             this.Ualumno.Name = "Ualumno";
-            this.Ualumno.Size = new System.Drawing.Size(134, 24);
+            this.Ualumno.Size = new System.Drawing.Size(128, 24);
             this.Ualumno.TabIndex = 5;
             this.Ualumno.Text = "Bienvenido - ";
             // 
@@ -173,7 +173,6 @@ namespace ProgramaUniversitario
             this.btnInscripcion.TabIndex = 11;
             this.btnInscripcion.Text = "Inscripción ";
             this.btnInscripcion.UseVisualStyleBackColor = false;
-            this.btnInscripcion.Click += new System.EventHandler(this.btnInscripcion_Click);
             // 
             // pictureBox2
             // 

@@ -23,7 +23,7 @@ namespace ProgramaUniversitario
         private void btnAdministrador_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form frm = new FormLoginUsuario();
+            Form frm = new Form2login();
             frm.Show();
 
         }
@@ -39,8 +39,9 @@ namespace ProgramaUniversitario
         private void btnEstudiante_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form frm = new Form2login();
+            Form frm = new FormLoginUsuario();
             frm.Show();
+            this.Close();
         }
     }
 }

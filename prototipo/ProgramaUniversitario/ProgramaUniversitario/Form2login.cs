@@ -42,7 +42,7 @@ namespace ProgramaUniversitario
             if (registros.Read())
             {
                 MessageBox.Show(" Bienvenido " + txtUsuario.Text);
-                Form frm = new FormMenuAlumno();
+                Form frm = new Form3MenuAdministrador();
                 frm.Show();
             }
             else

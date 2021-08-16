@@ -58,12 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
-    <Compile Include="FormInscripccion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormInscripccion.Designer.cs">
-      <DependentUpon>FormInscripccion.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +156,6 @@
       <DependentUpon>ReportAlumnosCarrera.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="FormInscripccion.resx">
-      <DependentUpon>FormInscripccion.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1menuprincipal.resx">
       <DependentUpon>Form1menuprincipal.cs</DependentUpon>
     </EmbeddedResource>
