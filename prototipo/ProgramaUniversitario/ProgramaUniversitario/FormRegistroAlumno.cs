@@ -40,6 +40,7 @@ namespace ProgramaUniversitario
 
         private void btnSiguienteCorreo_Click(object sender, EventArgs e)
         {
+             
 
             registrarNombreAlumno();
 
@@ -63,31 +64,16 @@ namespace ProgramaUniversitario
             try
             {
                 string cadena = "INSERT INTO alumno (idAlumno, nombres, Apellidos, dpi, correo, telefonoAlumno)" +
-                "VALUES ('" + txtCarnetAlumno.Text + "','" + txtNombreAlumno.Text + "','" + txtApellidoAlumno.Text + "','" + txtDPIAlumno.Text + "','" + txtCorreoAlumno.Text + "','" + txtTelefonoAlumno.Text + "');";
+                "VALUES ('" + txtCarnetAlumno.Text + "','" + txtNombreAlumno.Text + "','" + txtApellidoAlumno.Text + "','"+ txtDPIAlumno.Text + "','" + txtCorreoAlumno.Text + "','" + txtTelefonoAlumno.Text + "');";
                 OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+                consulta.ExecuteNonQuery();
+
             }
             catch (Exception Error)
             {
                 Console.WriteLine("Error al Guardar" + Error);
             }
 
-
-
-        }
- 
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
 
         }
     }

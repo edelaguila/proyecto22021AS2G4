@@ -26,12 +26,5 @@ namespace ProgramaUniversitario
         {
 
         }
-
-        private void btnInscripcion_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form frm = new FormInscripccion();
-            frm.Show();
-        }
     }
 }
