@@ -37,46 +37,28 @@ namespace ProgramaUniversitario
         private void btnguardar_Click(object sender, EventArgs e)
         {
             insertarCatedratico();
+            insertarCorreo();
+            insertarTelefonos();
+            txtIdcatedratico.Text = "";
             txtnombres.Text = "";
             txtdpi.Text = "";
             txtcorreo.Text = "";
-            txtdepartamento.Text = "";
-            txtcodigopostal.Text = "";
-            txtdireccion.Text = "";
-            txtmunicipio.Text = "";
+                        
             txtapellidos.Text = "";
             txttelefono.Text = "";
-                  
+                   
+            txtidtelefono.Text = "";
         }
+
         // metodo para insertar
         void insertarCatedratico()
         {
-            int idcatedratico = 1;
-            int idcorreo = 1;
-            int iddireccion = 1;
-            int idtelefono = 1;
             try
             {
                 string cadena = "INSERT INTO catedratico (idCat, nombres, apellidos, dpi)" + 
-                "VALUES ('" + idcatedratico  +"','" + txtnombres.Text + "','" + txtapellidos.Text + "','" + txtdpi + "');";
+                "VALUES ('" + txtIdcatedratico.Text + "','" + txtnombres.Text + "','" + txtapellidos.Text + "','" + txtdpi + "');";
                 OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
                 consulta.ExecuteNonQuery();
-
-                string cadena1 = "INSERT INTO correos (idCorreo, Correo)" +
-                "VALUES ('" + idcorreo + "','" + txtcorreo + "');";
-                OdbcCommand consulta1 = new OdbcCommand(cadena1, cn.conexion());
-                consulta1.ExecuteNonQuery();
-
-
-                string cadena2 = "INSERT INTO telefonos (idTelefono, Telefono)" +
-               "VALUES ('" + idtelefono + "','" + txttelefono.Text + "');";
-                OdbcCommand consulta2 = new OdbcCommand(cadena2, cn.conexion());
-                consulta2.ExecuteNonQuery();
-
-                string cadena3 = "INSERT INTO direcciones (idDir, Direccion, Departamento, Municipio, codPostal)" +
-              "VALUES ('" + iddireccion + "','" + txtdireccion + "','" + txtdepartamento + "','" + txtmunicipio + "','" + txtcodigopostal + "');";
-                OdbcCommand consulta3 = new OdbcCommand(cadena3, cn.conexion());
-                consulta3.ExecuteNonQuery();
 
             }
             catch(Exception Error)
@@ -87,6 +69,36 @@ namespace ProgramaUniversitario
 
         }
         
+
+        void insertarCorreo()
+        {
+            try
+            {
+                string cadena = "INSERT INTO correos (idCorreo, Correo)" +
+                 "VALUES ('" + txtiddireccion.Text + "','" + txtcorreo + "');";
+                OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+                consulta.ExecuteNonQuery();
+            }
+            catch (Exception Error)
+            {
+                Console.WriteLine("Error al Guardar" + Error);
+            }
+        }
+        void insertarTelefonos()
+        {
+            try
+            {
+                string cadena = "INSERT INTO telefonos (idTelefono, Telefono)" +
+               "VALUES ('" + txtiddireccion.Text + "','" + txttelefono.Text + "');";
+                OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+                consulta.ExecuteNonQuery();
+            }
+            catch (Exception Error)
+            {
+                Console.WriteLine("Error al Guardar" + Error);
+            }
+        }
+
         private void txtIdcatedratico_TextChanged(object sender, EventArgs e)
         {
             Exception X = new Exception();
@@ -307,9 +319,33 @@ namespace ProgramaUniversitario
             catch (Exception) { }
         }
 
-        private void btnAyuda_Click(object sender, EventArgs e)
+        private void btndireccion_Click(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, "Ayudas/AyudadAdministracion.chm", "Manual-de-ingreso-Catedratico.html");
+            insertarDireccion();
+            txtdepartamento.Text = "";
+            txtcodigopostal.Text = "";
+            txtdireccion.Text = "";
+            txtmunicipio.Text = "";
+            txtiddireccion.Text = "";
+        }
+        void insertarDireccion()
+        {
+            try
+            {
+                string cadena = "INSERT INTO direcciones (idDir, Direccion, Departamento, Municipio, codPostal)" +
+              "VALUES ('" + txtiddireccion.Text + "','" + txtdireccion + "','" + txtdepartamento + "','" + txtmunicipio + "','" + txtcodigopostal + "');";
+                OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+                consulta.ExecuteNonQuery();
+            }
+            catch (Exception Error)
+            {
+                Console.WriteLine("Error al Guardar" + Error);
+            }
+        }
+
+        private void btnTelefono_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
