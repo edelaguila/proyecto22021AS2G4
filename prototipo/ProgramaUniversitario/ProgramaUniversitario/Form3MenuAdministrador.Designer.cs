@@ -95,6 +95,7 @@ namespace ProgramaUniversitario
             this.btnAyuda.Size = new System.Drawing.Size(55, 46);
             this.btnAyuda.TabIndex = 5;
             this.btnAyuda.UseVisualStyleBackColor = true;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
             // btnCerrar
             // 

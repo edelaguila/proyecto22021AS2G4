@@ -14,6 +14,7 @@ namespace ProgramaUniversitario
     public partial class Form4IngresoCatedratico : Form
     {
         Conexion cn = new Conexion();
+        int Cdpi;
         public Form4IngresoCatedratico()
         {
             InitializeComponent();
@@ -33,20 +34,21 @@ namespace ProgramaUniversitario
             Form frm = new Form1menuprincipal();
             frm.Show();
         }
-
+        
         private void btnguardar_Click(object sender, EventArgs e)
         {
             insertarCatedratico();
             
             txtIdcatedratico.Text = "";
             txtnombres.Text = "";
-            txtdpi.Text = "";
+            
             txtcorreo.Text = "";
                         
             txtapellidos.Text = "";
             txttelefono.Text = "";
-                   
-          
+            txtdpi.Text = "";
+            txtdireccion.Text = "";
+
         }
 
         // metodo para insertar datos Catedratico
@@ -54,8 +56,9 @@ namespace ProgramaUniversitario
         {
             try
             {
-                string cadena = "INSERT INTO catedratico (idCat, nombres, apellidos, dpi, telefono, correoCatedratico )" + 
-                "VALUES ('" + txtIdcatedratico.Text + "','" + txtnombres.Text + "','" + txtapellidos.Text + "','" + txtcorreo.Text + "','" + txttelefono.Text + "','" + txtdpi + "');";
+                string cadena = "INSERT INTO catedratico (idCat, nombres, apellidos, dpi, idDir, idCorreo, idTel)" +
+                "VALUES ('" + txtIdcatedratico.Text + "','" + txtnombres.Text + "','" + txtapellidos.Text + "','" + txtdpi.Text + "','" + txtdireccion.Text + "','" + txtcorreo.Text + "','" + txttelefono.Text + "');";
+
                 OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
                 consulta.ExecuteNonQuery();
 
@@ -63,6 +66,7 @@ namespace ProgramaUniversitario
             catch(Exception Error)
             {
                 Console.WriteLine("Error al Guardar" + Error);
+                MessageBox.Show("Error \n" + Error);
             }
            
 
@@ -300,6 +304,11 @@ namespace ProgramaUniversitario
         private void btnTelefono_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "Ayudas/AyudadAdministracion.chm", "Manual-de-ingreso-Catedratico.html");
         }
     }
 }
