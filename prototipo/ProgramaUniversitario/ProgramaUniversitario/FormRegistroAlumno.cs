@@ -50,11 +50,8 @@ namespace ProgramaUniversitario
             txtDPIAlumno.Text = "";
             txtCorreoAlumno.Text = "";
             txtTelefonoAlumno.Text = "";
-
-            this.Hide();
-            Form frm = new FormCorreoAlumno();
-            frm.Show();
-            this.Close();
+            txtDireccion.Text = "";
+           
 
         }
 
@@ -63,8 +60,8 @@ namespace ProgramaUniversitario
         {
             try
             {
-                string cadena = "INSERT INTO alumno (idAlumno, nombres, Apellidos, dpi, correo, telefonoAlumno)" +
-                "VALUES ('" + txtCarnetAlumno.Text + "','" + txtNombreAlumno.Text + "','" + txtApellidoAlumno.Text + "','"+ txtDPIAlumno.Text + "','" + txtCorreoAlumno.Text + "','" + txtTelefonoAlumno.Text + "');";
+                string cadena = "INSERT INTO alumno (idAlumno, nombres, Apellidos, dpi, idDirAlumno, idCorreo, idTel)" +
+                "VALUES ('" + txtCarnetAlumno.Text + "','" + txtNombreAlumno.Text + "','" + txtApellidoAlumno.Text + "','"+ txtDPIAlumno.Text + "','" + txtDireccion.Text + "','" + txtCorreoAlumno.Text + "','" + txtTelefonoAlumno.Text + "');";
                 OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
                 consulta.ExecuteNonQuery();
 
